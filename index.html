@@ -4,29 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="./public/favicon/favicon.ico" type="image/x-icon">
     <title>Web Dev Bry</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="./components/footer.js" type="text/javascript" defer></script>
 </head>
 
 <body>
     <header>
-        <nav id="top-nav">Projects | Resume</nav>
+        <nav id="top-nav">
+            <a href="#">Projects</a>
+            |
+            <a href="#">Resume</a>
+        </nav>
         <h1 id="title">Web Dev Bry</h1>
-        <h2 id="sub-title">Front-end designer and web developer.</h2>
+        <h2 id="sub-title">
+            Front-end designer and web developer.
+        </h2>
         <div class="space">
             <button>Contact</button>
         </div>
     </header>
-    <div id="projects">
-        <ul>
-            <li>Stoneflow</li>
-        </ul>
+    <main>
+
+        <div id="projects">
+            <ul>
+                <li>Stoneflow</li>
+            </ul>
+        </div>
+
+    </main>
+    <div class="footer">
+        <footer-component></footer-component>
     </div>
 </body>
 
-<script>
-    
-</script>
 
 </html>
